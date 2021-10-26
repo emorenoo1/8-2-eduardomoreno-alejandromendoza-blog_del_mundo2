@@ -29,6 +29,25 @@
        </hdgroup>
        <p>Aquí hablare sobre el canto osea sobre la voz los cantantes sobre como afinar y sobre un debate el cual es los tipos de género de la musica</p>
        <!-- fin del tema 2-->
+      <! -- tema1 de: alejandro mendoza -->
+       <hgroup>
+           <h1>fútbol americano</h1>
+           <h3>cuantos super bowls tiene tom brady?</h3>
+           <h3>cuantos equipos hay en la nfl</h3>
+           <h3>mejores jugadores de la nfl</h3>
+       </hgroup>
+       <p>en esta tema hablare sobre la nfl y varios detalles sobre un equipo en particular, y sobre losmejores jugadores que han jugado en la liga</p>
+       <!-- fin tema 1 -->
+
+       <!-- tema2 de: alejandro mendoza -->
+      <hgroup>
+          <h1>fifa 22</h1>
+          <h3>ultimate team</h3>
+          <h3>modo carrera</h3>
+          <h3>clubes pro</h3>
+      </hgroup>
+      <p>en este tema voy a hablar sobre los diferentes modos de juego como es ultimate team modo carrera y clubes pro </p>
+      <!-- fin tema 2 -->
    </body> 
    <!--termina body-->
 </html>
