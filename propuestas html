@@ -9,6 +9,26 @@
    <!--termina head-->
    <body>
        <!--empieza body-->
+       <!--Tema1 de: Eduardo Moreno Ortega-->
+       <hgroup>
+           <h1>Soccer</h1>
+           <h3>Var en el futbol</h3>
+           <h3>Champions</h3>
+           <h3>messi vs cristiano</h3>
+       </hgroup>
+
+       <p>Aquí hablaré sobre las cosas del futbol más famosas como es la champions y también sobre algunos debates muy importantes como el del Var en en futbol o ¿quién es mejor cirstiano o messi?.</p>
+              <!--fin tema 1 -->
+
+       <!--Tema2 de: Eduardo Moreno Ortega-->
+       <hdgroup>
+           <h1>El canto</h1>
+           <h3>como afinarse</h3>
+           <h3>La fama de los cantantes</h3>
+           <h3>Diferentes tipos de género de la musica</h3>
+       </hdgroup>
+       <p>Aquí hablare sobre el canto osea sobre la voz los cantantes sobre como afinar y sobre un debate el cual es los tipos de género de la musica</p>
+       <!-- fin del tema 2-->
    </body> 
    <!--termina body-->
 </html>
