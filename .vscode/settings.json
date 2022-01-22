@@ -2,5 +2,6 @@
     "editor.formatOnSave": true,
     "html.format.indentInnerHtml": true,
     "diffEditor.wordWrap": "on",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "liveServer.settings.port": 5502
 }
