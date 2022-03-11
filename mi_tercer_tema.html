@@ -6,14 +6,11 @@
         <!--empieza head-->
         <meta charset=UTF-8>
         <title></title>
-
+        <link rel="stylesheet" href="assets/styles/estilos_alejandromendoza.css">
     </head>
-    <link rel="stylesheet" href="assets/styles/estilos_alejandromendoza.css">
     <!--termina head-->
 
     <body>
-        <!--empieza body-->
-
         <!--empieza mi barra de navegación-->
         <nav>
             <!--empieza lista ul-->
@@ -22,22 +19,22 @@
                 <!--enlace a index.html-->
                 <li><a class="resaltado" href="index.html" target="_blank">Principal</a></li>
                 <!--enlace a mi_cuarto_tema.html-->
-                <li><a href="mi_cuarto_tema.html">Mi cuarto tema</a></li>
+                <li><a href="mi_primer_tema.html">Mi primer tema</a></li>
                 <!--enlace a mi_segundo_tema.html-->
                 <li><a href="mi_segundo_tema.html">mi segundo tema</a></li>
                 <!--enlace a mi_primer_tema.html-->
-                <li><a href="mi_primer_tema.html">mi primer tema</a></li>
+                <li><a href="mi_cuarto_tema.html">mi cuarto tema</a></li>
                 <!--terminan las etiquetas li-->
             </ul>
             <!--termina lista ul-->
         </nav>
         <!--termina barra de navegación-->
-
+        <!--empieza body-->
         <section>
             <!--empieza el titulo del blog-->
             <header>
                 <!--termijna el titulo del blog-->
-                <h1>
+                <h1 id="título_del_blog">
                     FÚTBOL americano
                 </h1>
             </header>
@@ -63,280 +60,358 @@
                             también participar en algunas cosas sobre el como en un fantasy y esas cosas, los partidos
                             son muy entretenidos y me encanta verlos</p>
                     </div>
-                    <figure>
+                    <figure class="ilustracion">
                         <img src="assets/images/anillo nfl.gif" alt="Anillo Kansas" height="600px" width="auto">
-                        <figcaption>Kansas</figcaption>
+                        <figcaption class="ilustracion">kansas</figcaption>
                     </figure>
                     <!-- termina contenido del articulo-->
                     <footer>
-                    </footer>
-                </article>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2> <img src="assets/images/corredores.jpg" alt="Corredores" height="35px" width="auto">top
-                                10 mejores recptores del fútbol americano 2021-2022 </h2>
-                            <h4> 25/11/2021</h4>
-                        </hgroup>
-                    </header>
-                    <div>
-                        <ol start="10" reversed>
-                            <li>hunter renfrow</li>
-                            <li>jalen waddle</li>
-                            <li>diontae jhonson</li>
-                            <li>stephon diggs</li>
-                            <li>tyreek hill</li>
-                            <li>ja Marr Chase</li>
-                            <li>justin jefferson</li>
-                            <li>deebo samuel</li>
-                            <li>cupper kupp</li>
-                            <li>davante adams</li>
-                        </ol>
-                        <p>Este es un top 10 de los mejores receptores y corredores del futbol americano, son jugadores
-                            que han demostrado ser increíbles y por eso merecen estar en esta lista.</p>
-                    </div>
-                    <figure>
-                        <img src="assets/images/davante adams.gif" alt="Goat davante" height="600px" width="auto">
-                        <figcaption>Davante Adams</figcaption>
-                    </figure>
-                    <footer>
-                    </footer>
-                </article>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2><img src="assets/images/americano.jpg" alt="Corredores" height="35px" width="auto">
-                                Referencias de nfl</h2>
-                            <h4> 25/11/2021</h4>
-                        </hgroup>
-                    </header>
-                    <div>
-                        <ul>
-                            <li><a href="https://fantasy.nfl.com/" target="_blank">Fantasy</a></li>
-                            <li><a href="https://www.espn.com.mx/futbol-americano/" target="_blank">ESPN</a> </li>
-                            <li><a href="https://www.tiendanfl.com.mx/es/?utm_campaign=NFL+-+League.com+-+MX+-+ES|12281546114&utm_medium=ppc&ks_id=6220_kw56156387&utm_term=nfl&matchtype=e&utm_source=g&target=kwd-15050500&pcrid=497050837402&adposition=&gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2GZ8OzHDDMyEmJVpueOc1uahvB2qP90vRceYU7rcHBKivFjFa2QyIIaAlQOEALw_wcB"
-                                    target="_blank">Tienda nfl</a></li>
-                            <li><a href="https://fansided.com/es/leagues/nfl" target="_blank">Fansided leagues</a></li>
-                            <li><a href="https://es.wikipedia.org/wiki/National_Football_League"
-                                    target="_blank">National football league</a></li>
-                        </ul>
-                        <p>Aquí hay unos links para conocer y informarte de muchas cosas sobre la nfl y todo lo que
-                            contiene.</p>
-                    </div>
-                    <figure>
-                        <img src="assets/images/tom brady.gif" alt="tom brady" height="600px" width="auto">
-                        <figcaption>Tom Brady NFL</figcaption>
-                    </figure>
-                    <footer>
-                    </footer>
-                </article>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2><img src="assets/images/americano.jpg" alt="Corredores" height="35px" width="auto">
-                                Referencias de nfl</h2>
-                            <h4>16/12/2021</h4>
-                        </hgroup>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YekNJLLpdVA"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            <p>Aquí les dejo un video de jugadas de americano</p>
-                        </div>
-                    </header>
-                    <footer>
-                        <!-- Datos del autor -->
+                        <!--datos del autor-->
                         <div>
                             <span>Alejandro Mendoza</span> <a href="https://www.instagram.com/aleexmendozaaa/?hl=es-la"
+                                target="_blank">@aleexmendozaaa en instagram</a>
+                        </div>
+                        <!--fin datos del autor-->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Moreno Ortega, E. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                https://www.instagram.com/edmorenoo1/?hl=es-la</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                    <article>
+                        <header>
+                            <hgroup>
+                                <h2> <img src="assets/images/corredores.jpg" alt="Corredores" height="35px"
+                                        width="auto">top
+                                    10 mejores recptores del fútbol americano 2021-2022 </h2>
+                                <h4> 25/11/2021</h4>
+                            </hgroup>
+                        </header>
+                        <!--empiezalista de jugadores-->
+                        <div>
+                            <ol start="10" reversed>
+                                <li>hunter renfrow</li>
+                                <li>jalen waddle</li>
+                                <li>diontae jhonson</li>
+                                <li>stephon diggs</li>
+                                <li>tyreek hill</li>
+                                <li>ja Marr Chase</li>
+                                <li>justin jefferson</li>
+                                <li>deebo samuel</li>
+                                <li>cupper kupp</li>
+                                <li>davante adams</li>
+                            </ol>
+                            <!--termina lista de jugadores-->
+                            <p>Este es un top 10 de los mejores receptores y corredores del futbol americano, son
+                                jugadores
+                                que han demostrado ser increíbles y por eso merecen estar en esta lista.</p>
+                        </div>
+                        <figure>
+                            <img src="assets/images/davante adams.gif" alt="Goat davante" height="600px" width="auto">
+                            <figcaption>Davante Adams</figcaption>
+                        </figure>
+                        <footer>
+                            <!--datos del autor-->
+                            <div>
+                                <span>Alejandro Mendoza</span> <a
+                                    href="https://www.instagram.com/aleexmendozaaa/?hl=es-la"
+                                    target="_blank">@aleexmendozaaa en instagram</a>
+                            </div>
+                            <!--fin datos del autor-->
+                            <!-- bibliografía -->
+                            <blockquote>
+                                <p>Moreno Ortega, E. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                    https://www.instagram.com/edmorenoo1/?hl=es-la</p>
+                            </blockquote>
+                            <!-- fin bibliografía -->
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <hgroup>
+                                <h2><img src="assets/images/americano.jpg" alt="Corredores" height="35px" width="auto">
+                                    Referencias de nfl</h2>
+                                <h4> 25/11/2021</h4>
+                            </hgroup>
+                        </header>
+                        <div>
+                            <ul>
+                                <li><a href="https://fantasy.nfl.com/" target="_blank">Fantasy</a></li>
+                                <li><a href="https://www.espn.com.mx/futbol-americano/" target="_blank">ESPN</a> </li>
+                                <li><a href="https://www.tiendanfl.com.mx/es/?utm_campaign=NFL+-+League.com+-+MX+-+ES|12281546114&utm_medium=ppc&ks_id=6220_kw56156387&utm_term=nfl&matchtype=e&utm_source=g&target=kwd-15050500&pcrid=497050837402&adposition=&gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2GZ8OzHDDMyEmJVpueOc1uahvB2qP90vRceYU7rcHBKivFjFa2QyIIaAlQOEALw_wcB"
+                                        target="_blank">Tienda nfl</a></li>
+                                <li><a href="https://fansided.com/es/leagues/nfl" target="_blank">Fansided leagues</a>
+                                </li>
+                                <li><a href="https://es.wikipedia.org/wiki/National_Football_League"
+                                        target="_blank">National football league</a></li>
+                            </ul>
+                            <p>Aquí hay unos links para conocer y informarte de muchas cosas sobre la nfl y todo lo que
+                                contiene.</p>
+                        </div>
+                        <figure>
+                            <img src="assets/images/tom brady.gif" alt="tom brady" height="600px" width="auto">
+                            <figcaption>Tom Brady NFL</figcaption>
+                        </figure>
+                        <footer>
+                            <!--datos del autor-->
+                            <div>
+                                <span>Alejandro Mendoza</span> <a
+                                    href="https://www.instagram.com/aleexmendozaaa/?hl=es-la"
+                                    target="_blank">@aleexmendozaaa en instagram</a>
+                            </div>
+                            <!--fin datos del autor-->
+                            <!-- bibliografía -->
+                            <blockquote>
+                                <p>Moreno Ortega, E. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                    https://www.instagram.com/edmorenoo1/?hl=es-la</p>
+                            </blockquote>
+                            <!-- fin bibliografía -->
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <hgroup>
+                                <h2><img src="assets/images/americano.jpg" alt="Corredores" height="35px" width="auto">
+                                    Referencias de nfl</h2>
+                                <h4>16/12/2021</h4>
+                            </hgroup>
+                            <div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/YekNJLLpdVA"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <p>Aquí les dejo un video de jugadas de americano</p>
+                            </div>
+                        </header>
+                        <footer>
+                            <!-- Datos del autor -->
+                            <div>
+                                <span>Alejandro Mendoza</span> <a
+                                    href="https://www.instagram.com/aleexmendozaaa/?hl=es-la"
+                                    target="_blank">@aleexmendozaaa en instagram</a>
+                            </div>
+                            <!-- fin datos del autor -->
+                            <!-- bibliografía -->
+                            <blockquote>
+                                <p>NFL - Equipos, Resultados, Estadísticas, Posiciones y Rumores de la National Football
+                                    League - ESPN. (n.d.). ESPN.com.mx. https://www.espn.com.mx/futbol-americano/
+                                </p>
+                            </blockquote>
+                            <!-- fin bibliografía -->
+                        </footer>
+                        <!--inicia entrada -->
+                    </article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del articulo cocn icono -->
+                            <h2> <img src="assets/images/mahomes.jpg" alt="patrick mahomes Qb" height="35px"
+                                    width="auto">
+                                Investigacion </h2>
+                            <!--fecha en la que se escribio el articulo-->
+                            <h4>25/01/2022</h4>
+                        </hgroup>
+                    </header>
+                    <!--inicia contenido del articulo-->
+                    <div>
+
+                        <h3>los <i><strong>green bay packers</strong></i> en la nfl</h3>
+                        <p>green bay packers estaban teniendo una increible temporada ya que <q>quedo primero en su
+                                conferencia</q><sub>1</sub>pero cayó eliminado los green bay packers tuvieron una
+                            temporada
+                            buenisima con un record de 13-4 siendo el mejor equipo de la conferencia nacional, sobre
+                            tampa
+                            bay, rams, y más, en los play offs se decidio contra quien iba a jugar despues de los
+                            <q>wild
+                                cards</q>
+                        </p>
+
+                        <p>el mejor receptor de la nfl davante adams esta decidiendo su futuro en green bay ya que su
+                            contrato finaliza acabando la temporada y no sabe si se va a quedar o va a irse del equipo
+                            de
+                            green bay han tenido una muy buena temporada regular pero no se sabe su futuro aún.
+                        </p>
+
+                        <p>los green bay packers son eliminados en play offs a manos del equipo que rechazo a aroon
+                            rodgers
+                            cuando fue elegido en el draft, <q>los 49ers</q> este equipoes un equipo con una muy buena
+                            defensa y con armas muy fuertes a la ofensiva como deebo samuel.
+                        </p>
+
+                        <p>aaron rodgers el qb de green bay packers quiere explorar nuevos rumbos pero con el gran
+                            receptor
+                            davante adams en su equipo podría quedarse en green bay pero como el magnifico recptor
+                            también
+                            esta en duda su futuro aaron rodgers decidira dependiendo de la descicion de adams <q>segun
+                                algunos medios</q>
+                        </p>
+                        <h4>esta es una probabilidad de que rodgers y adams se queden en green bay</h4>
+                        <label>davante adams 60%</label> <meter value="60" min="0" max="100"></meter>
+                        <label>aaron rodgers 40%</label> <meter value="40" min="0" max="100"></meter>
+
+                        <h3><i><strong>kansas city chiefs</strong></i> por el super bowl</h3>
+
+                        <p>los kansas city <q> chiefs</q> son un equipo muy bueno y muy completo con unas muy buenas
+                            armas
+                            para poder ganar el superbowl ya que cn mahomes a la cabeza pueden llegar a tener unas
+                            grandes y
+                            muy buenas jugadas en la ofensiva, por otra parte la defensiva también esta jugando muy bien
+                            y
+                            en general el equipo esta muy motivado para llegar a ganar el campeonato</p>
+
+                        <p>patrick mahomes es uno de los mejores qb en la actualidad de la nfl este jugador juega en los
+                            kansas city chiefs, guiandolos hacia el super bowl esa haciendo un uy buen trabajo, tiene un
+                            bran brazo que coloca muy bien al balón donde el quiere y conectando con sus receportes en
+                            mi
+                            opinion es una <q>bestia</q>es un jugador muy bueno hace doa temporadas ganó el super bowl
+                            entonces es un canddato confiabe a ganarlo </p>
+
+                        <p>la ofensiva de los chiefs, esta ofensiva es una de los mejores si no la mejor ofensiva de la
+                            nfl
+                            ya que puede contar con unos grande corredores como lo es edwards helaire, darrell williams,
+                            por
+                            otro lado unp de los mejores qb de la nfl patrick mahomes, en recetores tiene unos muy
+                            buenos
+                            como los tyreek hill y mecole hardman, tienen a un gran jugador como ala cerrada "te"
+                            traviis
+                            kelce.</p>
+
+                        <p>en los play offs kansas city se enfrentó en wild cards contra los acereros <q> steelers
+                            </q>de
+                            pittsburgh les metieron una paliza fue una humillada a los steelers el principio del partido
+                            fue
+                            algo aburrido ya que los dos equipos se la pasaban pateando pero a la medida que el partido
+                            fue
+                            avanzando se puso mejor, en la siguiente ronda se enfrentaron contra los bills de buffalo de
+                            josh allen que es uno de los mejres qb de la nfl y lo demostró en el partido pero no
+                            consiguieron ganar ya que en ot kansas logro marcar un touchdown y gano el partido.
+                            <sub>2</sub>
+                        </p>
+
+                        <h4>esta es una probabilidad de que kansas gane el super bowl</h4>
+                        <label>kansas 25%</label> <meter value="25" min="0" max="100"></meter>
+
+                        <h3><i><strong>steelers</strong></i> su temporada</h3>
+                        <p>los steelers son un equipo con una cantidad de aficionados enorme en lo personal son el
+                            equipo
+                            que mas gente que conozco son fan de los steelers pero bueno los steelers son un equipo de
+                            americano ubicado en pitsburgh que juegan en la nfl pero ultimamanet han pasado varias cosas
+                            interesantes con este equipo </p>
+
+                        <p><q>ben roethlisberger</q> el qb de steelers declara que su ultimo partido va a ser contra
+                            kansas
+                            en play offs despues de esto se va a retirar con una gran historia en steelers con super
+                            bowls y
+                            grandes jugadas y llenando los corazones de todos los aficionados </p>
+
+                        <p>ben roethlisberger en la ultima temorada fue un qb de los peores en la nfl ya que no tiene
+                            mucha
+                            ovilidad po la edad aunque seuia esforzandoce, con un gran jugador rookie como lo es najje
+                            harris se apoyo muy bien en todas esas jugadas que ben no podía llegar a dar el pase para
+                            poder
+                            hacer la jugada</p>
+
+                        <p>tj watt este hombre es un crack es uno de los mejores jugadores en la posicion de outside
+                            linebacker se encarga de taclear al qb en la ofensiva del equipo rival en total lleva 72
+                            sacks y
+                            en esta temporada fue de los que mas tuvo un total crack. <sub>3</sub></p>
+
+                        <h4>esta es una probabilidad de que steelers llegue lejos la siguiente temporada</h4>
+                        <label>kansas 20%</label> <meter value="20" min="0" max="100"></meter>
+                        <!--inicia ilustracion del articulo-->
+                        <figure>
+                            <img src="assets/images/Aaron_Rodgers_SI.jpg" alt="ilustración 1° articulo" height="600px"
+                                width="auto">
+                            <figcaption>arron rodgers</figcaption>
+                        </figure>
+                        <!--termina ilustracion del articulo-->
+
+                    </div>
+                    <!--termina contenido principal-->
+                    <footer>
+                        <!--datos del autor-->
+                        <div>
+                            <span><sub>1</sub></span> <a
+                                href="https://us.as.com/us/2022/01/26/nfl/1643157941_562447.html"
+                                target="_blank">@packers en redes sociales</a>
+                        </div>
+                        <!--fin datos del autor-->
+                        <!--bibliografia-->
+                        <blockquote>
+                            <p>Elias, D. (n.d.). Generador de Citas APA Gratuito [Actualizado para 2021]. MyBib.
+                                https://www.mybib.com/es/herramientas/generador-citas-apa
+                            </p>
+                            <cite>green bay packers</cite>
+                        </blockquote>
+                        <!--fin de la bibliografia-->
+                        <div>
+                            <span><sub>2</sub> kansas city chiefa</span> <a href="https://www.chiefs.com/"
+                                target="_blank">@chiefs en instagram</a>
+                        </div>
+                        <!--bibliografia-->
+                        <blackquote>
+                            <p>Official Website of the Kansas City Chiefs | Chiefs.com. (2019). Kansas City Chiefs.
+                                https://www.chiefs.com/ </p>
+                            <cite>kansas city chiefs</cite>
+                        </blackquote>
+                        <!--fin de la bibliografia-->
+                        <div>
+                            <span><sub>3</sub>steelers</span> <a href="https://www.steelers.com/" target="_blank">
+                                @steelers en
+                                instagram</a>
+                        </div>
+                        <!--bibliografia-->
+                        <blackquote>
+                            <p>(2019). Steelers.com. https://www.steelers.com/</p>
+                            <cite>steelers de pittsburgh</cite>
+                        </blackquote>
+                        <!--fin de bibliografia-->
+                    </footer>
+                </article>
+                <!-- inicia entrada: nombre_del_artículo -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/jaire alexanderr.jpg" alt="Jaire Alexander" height="35px"
+                                    width="auto">
+                                Jaire Alexander jugador de green bay packers</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>26/01/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+                        <iframe width="560" height="315" src="https://youtu.be/cueeakVP9eo" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                        picture-in-picture" allowfullscreen></iframe>
+                        <p>Vídeo sobre green bay packers</p>
+
+                        <!-- inicia ilustración del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/aaron jones.jpg" alt=" Aaron Jones" height="600px" width="auto">
+                            <figcaption class="ilustracion">Aaron Jones</figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
+                    </div>
+                    <!--termina contenido principal-->
+                    <footer>
+                        <!-- Datos del autor-->
+                        <div>
+                            <span>Alejandro Mendoza</span> <a href="https://www.instagram.com/aleexmendozaaa/"
                                 target="_blank">@aleexmendozaaa en instagram</a>
                         </div>
                         <!-- fin datos del autor -->
                         <!-- bibliografía -->
                         <blockquote>
-                            <p>NFL - Equipos, Resultados, Estadísticas, Posiciones y Rumores de la National Football
-                                League - ESPN. (n.d.). ESPN.com.mx. https://www.espn.com.mx/futbol-americano/
-                            </p>
+                            <p>Mendoza Gutiérrez, A. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                https://www.instagram.com/aleexmendozaaa/?hl=es-la</p>
                         </blockquote>
                         <!-- fin bibliografía -->
                     </footer>
-                    <!--inicia entrada -->
                 </article>
-                <header>
-                    <hgroup>
-                        <!-- Título del articulo cocn icono -->
-                        <h2> <img src="assets/images/mahomes.jpg" alt="patrick mahomes Qb" height="35px" width="auto">
-                            Investigacion </h2>
-                        <!--fecha en la que se escribio el articulo-->
-                        <h4>25/01/2022</h4>
-                    </hgroup>
-                </header>
-                <!--inicia contenido del articulo-->
-                <div>
-
-                    <h3>los <i><strong>green bay packers</strong></i> en la nfl</h3>
-                    <p>green bay packers estaban teniendo una increible temporada ya que <q>quedo primero en su
-                            conferencia</q><sub>1</sub>pero cayó eliminado los green bay packers tuvieron una temporada
-                        buenisima con un record de 13-4 siendo el mejor equipo de la conferencia nacional, sobre tampa
-                        bay, rams, y más, en los play offs se decidio contra quien iba a jugar despues de los <q>wild
-                            cards</q>
-                    </p>
-
-                    <p>el mejor receptor de la nfl davante adams esta decidiendo su futuro en green bay ya que su
-                        contrato finaliza acabando la temporada y no sabe si se va a quedar o va a irse del equipo de
-                        green bay han tenido una muy buena temporada regular pero no se sabe su futuro aún.
-                    </p>
-
-                    <p>los green bay packers son eliminados en play offs a manos del equipo que rechazo a aroon rodgers
-                        cuando fue elegido en el draft, <q>los 49ers</q> este equipoes un equipo con una muy buena
-                        defensa y con armas muy fuertes a la ofensiva como deebo samuel.
-                    </p>
-
-                    <p>aaron rodgers el qb de green bay packers quiere explorar nuevos rumbos pero con el gran receptor
-                        davante adams en su equipo podría quedarse en green bay pero como el magnifico recptor también
-                        esta en duda su futuro aaron rodgers decidira dependiendo de la descicion de adams <q>segun
-                            algunos medios</q>
-                    </p>
-                    <h4>esta es una probabilidad de que rodgers y adams se queden en green bay</h4>
-                    <label>davante adams 60%</label> <meter value="60" min="0" max="100"></meter>
-                    <label>aaron rodgers 40%</label> <meter value="40" min="0" max="100"></meter>
-
-                    <h3><i><strong>kansas city chiefs</strong></i> por el super bowl</h3>
-
-                    <p>los kansas city <q> chiefs</q> son un equipo muy bueno y muy completo con unas muy buenas armas
-                        para poder ganar el superbowl ya que cn mahomes a la cabeza pueden llegar a tener unas grandes y
-                        muy buenas jugadas en la ofensiva, por otra parte la defensiva también esta jugando muy bien y
-                        en general el equipo esta muy motivado para llegar a ganar el campeonato</p>
-
-                    <p>patrick mahomes es uno de los mejores qb en la actualidad de la nfl este jugador juega en los
-                        kansas city chiefs, guiandolos hacia el super bowl esa haciendo un uy buen trabajo, tiene un
-                        bran brazo que coloca muy bien al balón donde el quiere y conectando con sus receportes en mi
-                        opinion es una <q>bestia</q>es un jugador muy bueno hace doa temporadas ganó el super bowl
-                        entonces es un canddato confiabe a ganarlo </p>
-
-                    <p>la ofensiva de los chiefs, esta ofensiva es una de los mejores si no la mejor ofensiva de la nfl
-                        ya que puede contar con unos grande corredores como lo es edwards helaire, darrell williams, por
-                        otro lado unp de los mejores qb de la nfl patrick mahomes, en recetores tiene unos muy buenos
-                        como los tyreek hill y mecole hardman, tienen a un gran jugador como ala cerrada "te" traviis
-                        kelce.</p>
-
-                    <p>en los play offs kansas city se enfrentó en wild cards contra los acereros <q> steelers </q>de
-                        pittsburgh les metieron una paliza fue una humillada a los steelers el principio del partido fue
-                        algo aburrido ya que los dos equipos se la pasaban pateando pero a la medida que el partido fue
-                        avanzando se puso mejor, en la siguiente ronda se enfrentaron contra los bills de buffalo de
-                        josh allen que es uno de los mejres qb de la nfl y lo demostró en el partido pero no
-                        consiguieron ganar ya que en ot kansas logro marcar un touchdown y gano el partido. <sub>2</sub>
-                    </p>
-
-                    <h4>esta es una probabilidad de que kansas gane el super bowl</h4>
-                    <label>kansas 25%</label> <meter value="25" min="0" max="100"></meter>
-
-                    <h3><i><strong>steelers</strong></i> su temporada</h3>
-                    <p>los steelers son un equipo con una cantidad de aficionados enorme en lo personal son el equipo
-                        que mas gente que conozco son fan de los steelers pero bueno los steelers son un equipo de
-                        americano ubicado en pitsburgh que juegan en la nfl pero ultimamanet han pasado varias cosas
-                        interesantes con este equipo </p>
-
-                    <p><q>ben roethlisberger</q> el qb de steelers declara que su ultimo partido va a ser contra kansas
-                        en play offs despues de esto se va a retirar con una gran historia en steelers con super bowls y
-                        grandes jugadas y llenando los corazones de todos los aficionados </p>
-
-                    <p>ben roethlisberger en la ultima temorada fue un qb de los peores en la nfl ya que no tiene mucha
-                        ovilidad po la edad aunque seuia esforzandoce, con un gran jugador rookie como lo es najje
-                        harris se apoyo muy bien en todas esas jugadas que ben no podía llegar a dar el pase para poder
-                        hacer la jugada</p>
-
-                    <p>tj watt este hombre es un crack es uno de los mejores jugadores en la posicion de outside
-                        linebacker se encarga de taclear al qb en la ofensiva del equipo rival en total lleva 72 sacks y
-                        en esta temporada fue de los que mas tuvo un total crack. <sub>3</sub></p>
-
-                    <h4>esta es una probabilidad de que steelers llegue lejos la siguiente temporada</h4>
-                    <label>kansas 20%</label> <meter value="20" min="0" max="100"></meter>
-                    <!--inicia ilustracion del articulo-->
-                    <figure>
-                        <img src="assets/images/Aaron_Rodgers_SI.jpg" alt="ilustración 1° articulo" height="600px"
-                            width="auto">
-                        <figcaption>arron rodgers</figcaption>
-                    </figure>
-                    <!--termina ilustracion del articulo-->
-
-                </div>
-                </article>
-            </main>
-            <!--termina contenido principal-->
-            <footer>
-                <!--datos del autor-->
-                <span><sub>1</sub></span> <a href="https://us.as.com/us/2022/01/26/nfl/1643157941_562447.html"
-                    target="_blank">@packers en redes sociales</a>
-                <!--fin datos del autor-->
-                <!--bibliografia-->
-                <blockquote>
-                    <p>Elias, D. (n.d.). Generador de Citas APA Gratuito [Actualizado para 2021]. MyBib.
-                        https://www.mybib.com/es/herramientas/generador-citas-apa
-                    </p>
-                    <cite>green bay packers</cite>
-                </blockquote>
-                <!--fin de la bibliografia-->
-                <div>
-                    <span><sub>2</sub> kansas city chiefa</span> <a href="https://www.chiefs.com/"
-                        target="_blank">@chiefs en instagram</a>
-                </div>
-                <!--bibliografia-->
-                <blackquote>
-                    <p>Official Website of the Kansas City Chiefs | Chiefs.com. (2019). Kansas City Chiefs.
-                        https://www.chiefs.com/ </p>
-                    <cite>kansas city chiefs</cite>
-                </blackquote>
-                <!--fin de la bibliografia-->
-                <div>
-                    <span><sub>3</sub>steelers</span> <a href="https://www.steelers.com/" target="_blank"> @steelers en
-                        instagram</a>
-                </div>
-                <!--bibliografia-->
-                <blackquote>
-                    <p>(2019). Steelers.com. https://www.steelers.com/</p>
-                    <cite>steelers de pittsburgh</cite>
-                </blackquote>
-                <!--fin de bibliografia-->
-            </footer>
-            <!-- inicia entrada: nombre_del_artículo -->
-            <article>
-                <header>
-                    <hgroup>
-                        <!-- Título del artículo con ícono -->
-                        <h2> <img src="assets/images/jaire alexanderr.jpg" alt="Jaire Alexander" height="35px"
-                                width="auto">
-                            Jaire Alexander jugador de green bay packers</h2>
-                        <!-- Fecha en la que se escribió el artículo -->
-                        <h4>26/01/22</h4>
-                    </hgroup>
-                </header>
-                <!-- inicia contenido del artículo -->
-                <div>
-                    <iframe width="560" height="315" src="https://youtu.be/cueeakVP9eo" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                        picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo sobre green bay packers</p>
-
-                    <!-- inicia ilustración del artículo -->
-                    <figure>
-                        <img src="assets/images/aaron jones.jpg" alt=" Aaron Jones" height="600px" width="auto">
-                        <figcaption>Aaron Jones</figcaption>
-                    </figure>
-                    <!-- termina ilustración del artículo -->
-                </div>
-                <!-- Datos del autor-->
-                <div>
-                    <span>Alejandro Mendoza</span> <a href="https://www.instagram.com/aleexmendozaaa/"
-                        target="_blank">@aleexmendozaaa en instagram</a>
-                </div>
-                <!-- fin datos del autor -->
-                <!-- bibliografía -->
-                <blockquote>
-                    <p>Mendoza Gutiérrez, A. (2022). Login • Instagram. Retrieved 21 January 2022, from
-                        https://www.instagram.com/aleexmendozaaa/?hl=es-la</p>
-                </blockquote>
-                <!-- fin bibliografía -->
+                <!--fin entrada nombre_del_articulo-->
+                <!--inicia entrada nombre del articulo-->
                 <article>
                     <header>
                         <hgroup>
@@ -380,67 +455,212 @@
                         <!-- fin bibliografía -->
                     </footer>
                 </article>
-                <!--empieza barra lateral-->
-                <aside>
-                    <h2>Microbloging</h2>
-
-                    <!--  entrada de mircoblogging -->
+                <!--fin entrada nombre_del_articulo-->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/kamarea.jpg" alt="Haaland" height="35px" width="auto">
+                                running back alvin kamara</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>10/03/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
                     <div>
-                        <span>los green bay packers al fin puedieron renovar el contrato de davante adams, el dia de
-                            08/03/2022
-                            anunciaron que davante adams se va a quedar en los packers buscando ganar elsuper bowl la
-                            siguiente temporada
-                            con esto los packers ya tendrín su receptor estrella para poder seguir con sus victorias ya
-                            que con los que tienen
-                            no llegarían muy lejos porque no están al nivel del equipo.
-                        </span>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qn7bgB0SCsw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>video sobre alvin kamara</p>
+                        <!-- inicia ilustración del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/najee-harris gif.gif" alt="najee harris" height="600px"
+                                width="auto">
+                            <figcaption class="ilustracion">jugada de najee harris</figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
                     </div>
-                    <!-- termina entrada de mircoblogging -->
-                    <!--  entrada de mircoblogging -->
-                    <div>
-                        <span>el qb aaron rodgers que juega en green bay packers decidió renovar por 4 años con green
-                            bay que fue anunciado el día 08/03/2022, este jugador es si no el más importante de los más
-                            importantes del equipo
-                            y era clave su renovación y con sus declaraciones de que si se queda davante se queda el y
-                            pues se dieron los dos
-                            y gracias a esto se espera una gran temporada para los packers.</span>
-                    </div>
-                    <!--termina entrada de microblogging-->
-                    <!--  entrada de mircoblogging -->
-                    <div>
-                        <span>la directiva de los packers no para de intentar renovar a su estrella defensiva jair
-                            alexander, se dice que normalmente este tipo
-                            de conversaciones se hacen en primavera o verano, pero a pesar de ello los packers necesitan
-                            a su gran jugador y así reforzar
-                            el equipo y la defensiva con este gran cornerback</span>
-                    </div>
-                    <!--termina entrada de microblogging-->
-                    <!--  entrada de mircoblogging -->
-                    <div>
-                        <span>los campeones de la última temporada los angeles rams estan interesados en que Von miller
-                            se quede en el equipo
-                            ya que es una pieza muy importante del equipo, los rams lo adquierieron con picks del draft
-                            del 2022 este jugador con sus 32 años
-                            consiguió en esta temporada 31 tacleadas, y cinco capturas de qb en solo 8 juegos de
-                            temporada regular sin duda uno de los mejores defensivos.</span>
-                    </div>
-                    <!--termina entrada de microblogging-->
-                    <!--empieza barra lateral-->
-                    <!--empieza el footer-->
-                    <footer id="footer_blog">
+                    <!--termina contenido del articulo-->
+                    <footer>
+                        <!-- Datos del autor-->
                         <div>
-                            <span>Alejandro Mendoza Gutiérrez</span>
+                            <span>NFL</span> <a href="https://www.instagram.com/nfl/" target="_blank">@nfl en
+                                instagram</a>
                         </div>
-                        <div>
-                            <span>blog creado en <i>Colegio Álamos</i></span> <span>Las opiniones contenidas en este
-                                proyecto
-                                pertenecen a los autores de cada entrada.</span>
-                        </div>
-                        <div>
-                            <span>Eduardo Moreno Ortega</span>
-                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Mendoza Gutiérrez, A. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                https://www.instagram.com/aleexmendozaaa/?hl=es-la</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
                     </footer>
-                    <!--termina el footer-->
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/davante y aaron.jpg" alt="davante y aaron" height="35px"
+                                    width="auto">
+                                davante y aARON RODGERS</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>10/03/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3c2ANOBIw6s"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>Vídeo sobre los rams </p>
+                        <!-- inicia ilustración del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/jmarr-chase griddy.gif" alt="jamaar chase" height="600px"
+                                width="auto">
+                            <figcaption class="ilustracion">jamaar chase</figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
+
+                    </div>
+                    <!--termina contenido del articulo-->
+                    <footer>
+                        <!-- Datos del autor-->
+                        <div>
+                            <span>NFL</span> <a href="https://www.instagram.com/nfl/" target="_blank">@nfl en
+                                instagram :)</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Mendoza Gutiérrez, A. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                https://www.instagram.com/aleexmendozaaa/?hl=es-la</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+
+
+
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/bills vs kansas.jpg" alt="bills vs kansas" height="35px"
+                                    width="auto">
+                                bills vs kansas</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>10/0/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/32jFxGNQ_oc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>video sobre la temporada dela nfl</p>
+
+                        <!-- inicia ilustración del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/king henry gif.gif" alt="king henry" height="600px" width="auto">
+                            <figcaption class="ilustracion">derrick henry </figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
+
+                    </div>
+                    <!--termina contenido del articulo-->
+                    <footer>
+                        <!-- Datos del autor-->
+                        <div>
+                            <span>NFL</span> <a href="https://www.instagram.com/nfl/" target="_blank">@nfl en
+                                instagram</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Mendoza Gutiérrez, A. (2022). Login • Instagram. Retrieved 21 January 2022, from
+                                https://www.instagram.com/aleexmendozaaa/?hl=es-la</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+            </main>
+            <!--empieza barra lateral-->
+            <aside>
+                <h2>Microbloging</h2>
+
+                <!--  entrada de mircoblogging -->
+                <div>
+                    <span>los green bay packers al fin puedieron renovar el contrato de davante adams, el dia de
+                        08/03/2022
+                        anunciaron que davante adams se va a quedar en los packers buscando ganar elsuper bowl
+                        la
+                        siguiente temporada
+                        con esto los packers ya tendrín su receptor estrella para poder seguir con sus victorias
+                        ya
+                        que con los que tienen
+                        no llegarían muy lejos porque no están al nivel del equipo.
+                    </span>
+                </div>
+                <!-- termina entrada de mircoblogging -->
+
+                <!--  entrada de mircoblogging -->
+                <div>
+                    <span>el qb aaron rodgers que juega en green bay packers decidió renovar por 4 años con
+                        green
+                        bay que fue anunciado el día 08/03/2022, este jugador es si no el más importante de los
+                        más
+                        importantes del equipo
+                        y era clave su renovación y con sus declaraciones de que si se queda davante se queda el
+                        y
+                        pues se dieron los dos
+                        y gracias a esto se espera una gran temporada para los packers.</span>
+                </div>
+                <!--termina entrada de microblogging-->
+
+                <!--  entrada de mircoblogging -->
+                <div>
+                    <span>la directiva de los packers no para de intentar renovar a su estrella defensiva jair
+                        alexander, se dice que normalmente este tipo
+                        de conversaciones se hacen en primavera o verano, pero a pesar de ello los packers
+                        necesitan
+                        a su gran jugador y así reforzar
+                        el equipo y la defensiva con este gran cornerback</span>
+                </div>
+                <!--termina entrada de microblogging-->
+
+                <!--  entrada de mircoblogging -->
+                <div>
+                    <span>los campeones de la última temporada los angeles rams estan interesados en que Von
+                        miller
+                        se quede en el equipo
+                        ya que es una pieza muy importante del equipo, los rams lo adquierieron con picks del
+                        draft
+                        del 2022 este jugador con sus 32 años
+                        consiguió en esta temporada 31 tacleadas, y cinco capturas de qb en solo 8 juegos de
+                        temporada regular sin duda uno de los mejores defensivos.</span>
+                </div>
+                <!--termina entrada de microblogging-->
+            </aside>
+            <!--termina barra lateral-->
+
+            <!--empieza el footer-->
+            <footer id="footer_blog">
+                <div>
+                    <span>Alejandro Mendoza Gutiérrez</span>
+                </div>
+                <div>
+                    <span>blog creado en <i>Colegio Álamos</i></span> <span>Las opiniones contenidas en este
+                        proyecto
+                        pertenecen a los autores de cada entrada.</span>
+                </div>
+                <div>
+                    <span>Eduardo Moreno Ortega</span>
+                </div>
+            </footer>
+            <!--termina el footer-->
         </section>
     </body>
     <!--termina body-->
