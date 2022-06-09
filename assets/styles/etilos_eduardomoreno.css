@@ -2,6 +2,7 @@
 body{
 background-color: black;
 color: #FFFFFF;
+margin-top: 0;
 }
 article{
 background-color: rgb(44, 43, 43);
@@ -10,10 +11,14 @@ border-bottom: 1px solid #FFFFFF;
 }
 nav{
     font-size: 1.3rem;
+    position:fixed;
+    width:100%;
+    background-color: #000;
 }
 #título_del_blog{
     text-align: center;
     font-size: 3rem;
+    margin-top: 150px;
 }
 /* Terminan clases generales  */
 
@@ -33,6 +38,14 @@ nav>ul>li>a:hover{
     text-decoration: underline;
     color: greenyellow;
 }
+
+
+/* footer del blog */
+
+
+
+/* fin del footer del blog */
+
 /* footer del blog */
 #footer_blog{
     display: flex;
@@ -40,9 +53,15 @@ nav>ul>li>a:hover{
     justify-content: space-between;
     margin: 2rem;
     padding: 4rem 0 4rem 0;
-    font-size: 1.3rem;
+    font-size:3rem;
 }
 /* fin del footer del blog */
+
+
+
+
+
+
 
 /* solo selecciona el blog creado... del footer del blog*/
 #footer_blog div:nth-child(2){
@@ -79,34 +98,67 @@ section>header {
     /* esta sección se extenderá 12 columnas. */
     grid-column: span 12;
 }
+
+
+
 /*apunta a el main que son hijos de section. */
+@media (max-width: 1024.1) {
+    section>main {
+    /*se extendera 8 columnas*/
+    grid-column: span 12;
+}
+}
+
+@media (max-width: 1024.1) {
+    section>aside {
+    /*se extendera 4 columnas*/
+    grid-column: span 12;
+}
+}
+
+
 section>main {
     /*se extendera 8 columnas*/
     grid-column: span 8;
 }
+
 /*afectara solo a los aside que son hios directos de section*/
 section>aside {
     /*se extendera 4 columnas*/
     grid-column: span 4;
 }
+
 /*afectara solo a los footer que son hios directos de section*/
 section>footer {
     /* se extendera 12 columnas*/
     grid-column: span 12;
 }
 /* selecciona elm ul que esta adentro de la etiqueta nav*/
-nav>ul{
-    /*se pone como flex*/
-    display:flex;
-    /* elementos al centro*/
-    align-items: center;
-    /* espacio igual entre los elementos de los dos lados */
-    justify-content: space-around;
-    /* se pone un borde inferior*/
-    border-bottom: 1px solid #fff;
-    /* se hace más grande el espacio entre los elemntos y su borde del ul*/
-    padding-bottom: 0.5rem;
+
+/* desde 0 hasta 1099px compórtate así: */
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
 }
+
+/* pantallas grandes de 1100px en adelante compórtate así: */
+@media (min-width: 1100px) {
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+    nav {
+        border-bottom: 5px solid red;
+    }
+
+
+/* fin pantallas grandes */
 
 article>header>hgroup{
     display: flex;
@@ -129,6 +181,24 @@ aside>div:nth-of-type(even){
     background-color: rgb(44, 43, 43);
 }
 /* Selecciona todas las imágenes que vivan dentro de un div que a su vez vive dentro de aside */
+aside div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.6rem;
+    border-bottom: 1px dashed #fff;
+}
+
+/* si la pantalla mide mínimo 1024.1 px y máximo 1324.1 entonces... */
+@media (min-width: 1024.1px) and (max-width: 1324.1px) {
+    aside div {
+        /* despliega los elementos de microblogging uno encima del otr */
+        flex-direction: column;
+    }
+}
+
+/* end media */
 aside div img {
     /* la imagen tendrá color de fondo blanco */
     background-color: #fff;
